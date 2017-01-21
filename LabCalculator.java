@@ -16,7 +16,9 @@ public class LabCalculator{
 			 System.out.println(Double.parseDouble(args[1])*Double.parseDouble(args[2]));
 		}
 
-		
+		if(args[0].equalsIgnoreCase("divide")){
+			 System.out.println(Double.parseDouble(args[1])/Double.parseDouble(args[2]));
+		}
 
 
 
